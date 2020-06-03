@@ -235,7 +235,7 @@ public class MainActivity extends AppCompatActivity implements ActivityCompat.On
         mHRVRunning = false;
         mImageDisplay = findViewById(R.id.texture);
 
-        mAlgo = new bnh_hrv_sdk(getApplicationContext(), this,
+        mAlgo = new bnh_hrv_sdk(MainActivity.this, MainActivity.this,
                 mImageDisplay, mSDKResponeHadler, bnh_hrv_sdk.AspectRatios.Aspect_ratio4x3);
 
         Log.e("HRV", "SDK was created");
