@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BinahDemo</string>
+
+    <string name="video">Video</string>
+    <string name="name">Name</string>
+    <string name="bpm">BPM</string>
+    <string name="rpm">RPM</string>
+    <string name="breath">Breath</string>
+
+</resources>
