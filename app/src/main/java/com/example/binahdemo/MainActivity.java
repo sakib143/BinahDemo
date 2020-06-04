@@ -192,7 +192,6 @@ public class MainActivity extends AppCompatActivity implements ActivityCompat.On
 
         setContentView(R.layout.activity_main);
 
-
         mBPMText = findViewById(R.id.bpmValue);
         mTimerText = findViewById(R.id.timerView);
         mButtonHRV = findViewById(R.id.buttonHRV);
@@ -200,7 +199,7 @@ public class MainActivity extends AppCompatActivity implements ActivityCompat.On
         mStressView = findViewById(R.id.StressView);
         mSpo2Value = findViewById(R.id.Spo2Value);
         mBreath = findViewById(R.id.BreathValue);
-        mBPMText.setText("");
+//        mBPMText.setText("");
 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN |
                 WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON |
