@@ -158,13 +158,10 @@
                 tools:text="Breath"
                 />
 
-
-
             <TextView
                 android:id="@+id/timerView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="30"
                 android:textColor="@android:color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
